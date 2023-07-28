@@ -1,0 +1,8 @@
+<h1>Welcome to Our Pet Store, {{ honkalonkadingdong }}!</h1>
+<p>We hope you find a new friend to take home today!</p>
+<p>Pets currently available for adoption:</p>
+<ul>
+{% for critter in critter_list %}
+<li>{{ critter|upper }}</li>
+{% endfor %}
+</ul>
