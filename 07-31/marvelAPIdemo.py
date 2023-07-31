@@ -46,8 +46,11 @@ def finder():
         matches= characterlist(choice)
         # matches = list of character dictionaries
 
-        # return the list of all matches to the client
-        return matches
+
+        # the jinja in display.html needs a variable called "characters" to be defined
+        # so we will pass our "matches" list in as the variable "characters" in display.html
+        return render_template("display.html", characters= matches)
+
     
     else:
         return []
