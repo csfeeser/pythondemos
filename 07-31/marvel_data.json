@@ -1,0 +1,45 @@
+[
+    {
+        "hero_name": "Iron Man",
+        "alter_ego": "Tony Stark",
+        "abilities": ["Genius-level intellect", "Powered Armor Suit", "Engineering skills"],
+        "age": 45
+    },
+    {
+        "hero_name": "Spider-Man",
+        "alter_ego": "Peter Parker",
+        "abilities": ["Wall-crawling", "Superhuman strength", "Spider-sense"],
+        "age": 22
+    },
+    {
+        "hero_name": "Spider-Man",
+        "alter_ego": "Miles Morales",
+        "abilities": ["Wall-crawling", "Superhuman strength", "Spider-sense"],
+        "age": 16
+    },
+    {
+        "hero_name": "Black Widow",
+        "alter_ego": "Natasha Romanoff",
+        "abilities": ["Espionage", "Hand-to-hand combat", "Marksmanship"],
+        "age": 35
+    },
+    {
+        "hero_name": "Thor",
+        "alter_ego": "Thor Odinson",
+        "abilities": ["Superhuman strength", "Control over lightning", "Mjolnir"],
+        "age": 1500
+    },
+    {
+        "hero_name": "Loki",
+        "alter_ego": "God of Mischief",
+        "abilities": ["Shape-shifting", "Illusions", "Sorcery"],
+        "age": 1200
+    },
+    {
+        "hero_name": "Thanos",
+        "alter_ego": "The Mad Titan",
+        "abilities": ["Superhuman strength", "Genius-level intellect", "Infinity Gauntlet"],
+        "age": 5000
+    }
+]
+
