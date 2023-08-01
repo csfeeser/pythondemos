@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marvel Character Details</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Marvel Character Details</h1>
+    <table>
+        <tr>
+            <th>Hero Name</th>
+            <th>Alter Ego</th>
+            <th>Abilities</th>
+            <th>Age</th>
+        </tr>
+        {% for char in characters %}
+        <tr>
+            <td>{{ char["hero_name"] }}</td> 
+            <td>{{ char["alter_ego"] }}</td> 
+            <td>{{ char["abilities"] | join(", ") }}</td> 
+            <td>{{ char["age"] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    
+    <p><a href="/">Go back to the homepage</a></p>
+</body>
+</html>
+
