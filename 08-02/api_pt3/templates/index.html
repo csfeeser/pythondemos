@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Welcome to the DevOps Marvel API!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      padding: 20px;
+      background-color: #ff6600;
+      margin: 0;
+    }
+
+    p {
+      text-align: center;
+      color: #555;
+      font-size: 18px;
+      margin: 10px;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+      box-sizing: border-box;
+    }
+
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="center">
+    <div>
+      <h1>Welcome to the DevOps Marvel API!</h1>
+      <img alt="Marvel Logo" src="https://i.pinimg.com/originals/7d/2b/1e/7d2b1e47ad39fd41765a9284325fb4fe.jpg" style="height: 100px; width: 300px;" />
+      <p>Enter character name:</p>
+      <form action="/search" method="post">
+        <input type="text" name="nm" placeholder="Character Name" required>
+        <input type="submit" value="Search">
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

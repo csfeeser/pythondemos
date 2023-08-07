@@ -1,0 +1,8 @@
+- hostname: sw-1
+  driver:   arista_eos
+  username: admin
+  password: alta3
+- hostname: sw-2
+  driver:   arista_eos
+  username: admin
+  password: alta3

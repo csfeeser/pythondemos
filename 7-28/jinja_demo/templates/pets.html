@@ -1,4 +1,12 @@
-<h1>Welcome to Our Pet Store, {{ honkalonkadingdong }}!</h1>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign in with your name</title>
+    <form action = "/sammyscoolcritteremporium" method = "POST">
+        <h1>Welcome to Our Pet Store, {{ honkalonkadingdong }}!</h1>
+        
 <p>We hope you find a new friend to take home today!</p>
 <p>Pets currently available for adoption:</p>
 <ul>
@@ -6,3 +14,13 @@
 <li>{{ critter|upper }}</li>
 {% endfor %}
 </ul>
+
+        <p>Enter pet to be added for adoption:</p>
+        <p><input type = "text" name = "SAMMYS_COOL_VAR"></p>
+        <p><input type = "submit" value = "submit"></p>
+    </form>
+</head>
+<body>
+
+</body>
+</html>
