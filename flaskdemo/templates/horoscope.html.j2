@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ name }}'s Horoscope</title>
+</head>
+<body>
+    <h1>Welcome, {{ name }}!</h1>
+    <h2>Western Zodiac</h2>
+    <p>Your sign: <strong>{{ sign }}</strong></p>
+    <p>Your horoscope: <em>{{ western[sign] }}</em></p>
+    
+    <h2>Chinese Zodiac</h2>
+    <p>Your animal: <strong>{{ animal }}</strong></p>
+    <p>Your horoscope: <em>{{ eastern[animal] }}</em></p>
+</body>
+</html>
