@@ -7,7 +7,7 @@ WORKDIR /usr/src/app
 # Copy the local code to the container
 COPY api.py .
 
-# Install Flask and SQLite3 library
+# Install Flask library
 RUN pip install flask
 
 # Make the /data directory inside the container to store the SQLite3 database
