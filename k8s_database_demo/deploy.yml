@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test3-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: test3
+  template:
+    metadata:
+      labels:
+        app: test3
+    spec:
+      containers:
+      - name: test3-container
+        image: bchd.registry/test3
+        volumeMounts:
+        - name: sqlite-storage
+          mountPath: /data
+      volumes:
+      - name: sqlite-storage
+        persistentVolumeClaim:
+          claimName: demo-pvc
+
