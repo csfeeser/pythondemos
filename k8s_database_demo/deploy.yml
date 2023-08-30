@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: test4-deployment
+  name: test4-deployment2
 spec:
   replicas: 3
   selector:
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: test3-container
-        image: bchd.registry/test3
+        image: ghcr.io/csfeeser/pythondemos/test3
         volumeMounts:
         - name: sqlite-storage
           mountPath: /data
